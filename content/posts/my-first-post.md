@@ -1,6 +1,6 @@
 ---
 date: '2025-02-22T23:43:21+08:00'
-draft: true
+draft: false
 title: 'My First Post'
 ---
 ## Hello Hugo
