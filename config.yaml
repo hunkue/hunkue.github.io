@@ -13,9 +13,11 @@ minify:
   disableXML: true
   minifyOutput: true
 
-search:
-  enabled: true
-  noIndexes: false
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -30,7 +32,7 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: false
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
@@ -82,6 +84,7 @@ params:
       - • 粉粿的照片
       - • Python 的學習心得
       - English page under development...
+      - visit my GitHub by clicking the icon below
 
   socialIcons:
     - name: github
@@ -120,12 +123,21 @@ menu:
   main:
     - identifier: about
       name: about me
-      url: /about-me
+      url: /about
       weight: 10
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 20
+#    - identifier: categories
+#      name: categories
+#      url: /categories/
+#      weight: 20
+    - name: coding
+      url: /categories/coding
+      weight: 21
+    - name: living
+      url: /categories/living
+      weight: 22
+    - name: hunkue
+      url: /categories/hunkue
+      weight: 23
     - identifier: tags
       name: tags
       url: /tags/
