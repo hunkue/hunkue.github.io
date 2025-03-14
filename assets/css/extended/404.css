@@ -13,14 +13,12 @@
 
 .not-found-title {
     font-size: 3.0rem;
-    color: #333;
     margin-bottom: 10px;
     font-weight: bold;
 }
 
 .not-found-text {
     font-size: 1.0rem;
-    color: #333;
     margin-bottom: 10px;
 }
 
@@ -29,13 +27,12 @@
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 1.0rem;
-    color: #333;
     text-decoration: none;
     border-radius: 15px;
-    border: 1.5px solid #333;
+    border: 1.5px solid;
 }
 
 .not-found-link:hover {
-    background: #333;
-    color: #ffffff;
+    background-color: blue;
+    color: white;
 }
