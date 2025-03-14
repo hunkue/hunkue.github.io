@@ -1,0 +1,10 @@
+{{- define "main" }}
+<div class="not-found-container">
+    <link rel="stylesheet" href="{{ "css/404.css" | relURL }}">
+    <img src="{{ "images/404.PNG" | relURL }}" alt="nautilus-cat" class="not-found-img">
+    <p class="not-found-title">404</p>
+    <p class="not-found-text">這個頁面正在醒來的路上</p>
+    <p class="not-found-text">the page is taking a nap...</p>
+    <a href="{{ "/" | relURL }}" class="not-found-link">返回首頁 back to homepage</a>
+</div>
+{{- end }}
