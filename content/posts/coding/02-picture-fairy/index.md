@@ -35,7 +35,7 @@ Picture Fairy 的功能很直觀：
 
 以下是流程圖簡圖：
 
-![Picture Fairy LINE Bot 流程圖](A_flowchart-style_digital_diagram_illustrates_the_.png)
+![Picture Fairy LINE Bot 流程圖](flowchart.png)
 
 ---
 
